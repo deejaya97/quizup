@@ -14,7 +14,7 @@ export const data = [
         option1: "Gulab Jamun",
         option2: "Ice Cream",
         option3: "Carrot Halwa",
-        option4: "Payasam}",
+        option4: "Payasam",
         ans: 2
     },
     {
@@ -37,11 +37,11 @@ export const data = [
     },
     {
         id: 5,
-        question: "What year was JavaScript created?",
-        option1: "1993",
-        option2: "1995",
-        option3: "1998",
-        option4: "2000",
+        question: "Which was Shreya's first school?",
+        option1: "Thurgood Marshall",
+        option2: "McVey",
+        option3: "Caravel",
+        option4: "Newark Charter",
         ans: 2
     },
     {
