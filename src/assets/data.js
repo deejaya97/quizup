@@ -10,12 +10,12 @@ export const data = [
     },
     {
         id: 2,
-        question: "Which company developed the Python programming language?",
-        option1: "Google",
-        option2: "Microsoft",
-        option3: "CWI (Centrum Wiskunde & Informatica)",
-        option4: "IBM",
-        ans: 3
+        question: "Which is Saanika's favorite dessert?",
+        option1: "Gulab Jamun",
+        option2: "Ice Cream",
+        option3: "Carrot Halwa",
+        option4: "Payasam}",
+        ans: 2
     },
     {
         id: 3,

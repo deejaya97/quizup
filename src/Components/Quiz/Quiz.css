@@ -1,6 +1,5 @@
 .container{
     margin: auto;
-    margin-top: 150px;
     background: white;
     color: #262626;
     display:flex;
@@ -11,7 +10,11 @@
     width: 640px;
     border: 2px solid black;
     padding: 40px 50px;
-
+  /* Add the following styles for mobile screens */
+  @media (max-width: 600px) {
+    width: 100%;
+    padding: 20px;
+  }
 }
 .container hr{
     height: 2px;

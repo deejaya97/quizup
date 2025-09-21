@@ -1,12 +1,22 @@
-*{
-    margin: 0;
-    padding: 0;
+/* Default styles for desktop */
+body {
+  background-image: linear-gradient(#6b696b, #5f025f);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: 'poppins';
 }
-body{
-    height: 100vh;
-    background-image: linear-gradient(#D8C7FF, #19006C);
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    font-family: 'poppins';
+
+/* Styles for mobile devices */
+@media (max-width: 600px) {
+  body {
+    flex-direction: column;
+  }
+}
+
+/* Styles for smaller mobile devices */
+@media (max-width: 400px) {
+  body {
+    padding: 20px;
+  }
 }
