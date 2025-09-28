@@ -1,10 +1,11 @@
 /* Default styles for desktop */
 body {
-  background-image: linear-gradient(#6b696b, #5f025f);
+  background-image: linear-gradient(#8f858f, #830383);
   display: flex;
   justify-content: center;
   align-items: center;
-  font-family: 'poppins';
+  font: 14px 'Century Gothic', Futura, sans-serif;
+  margin: 20px;
 }
 
 /* Styles for mobile devices */

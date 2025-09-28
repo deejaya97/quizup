@@ -22,19 +22,18 @@ export default function TopicList() {
   };
 
   return (
-    <div>
-      <h1>QuizUp </h1>
-      <div className="topic-list">
-        {topics.map((t) => (
-          <button
-            key={t.id}
-            className={`topic-item ${selectedTopic === t.id ? 'selected' : ''}`}
-            onClick={() => handleTopicClick(t.id)}
-          >
-            {t.name}
-          </button>
-        ))}
+      <div class="content">
+        <div className="topic-list">
+          {topics.map((t) => (
+            <button
+              key={t.id}
+              className={`topic-item ${selectedTopic === t.id ? 'selected' : ''}`}
+              onClick={() => handleTopicClick(t.id)}
+            >
+              {t.name}
+            </button>
+          ))}
+        </div>
       </div>
-    </div>
   );
 }
