@@ -6,7 +6,7 @@ export const data = [
     option2: "5",
     option3: "6",
     option4: "7",
-    ans: 1
+    ans: 2
   },
   {
     id: 2,
@@ -33,7 +33,7 @@ export const data = [
     option2: "6x + 7",
     option3: "6x - 1",
     option4: "6x + 11",
-    ans: 4
+    ans: 1
   },
   {
     id: 5,
@@ -69,7 +69,7 @@ export const data = [
     option2: "5",
     option3: "6",
     option4: "7",
-    ans: 3
+    ans: 2
   },
   {
     id: 9,
@@ -87,7 +87,7 @@ export const data = [
     option2: "36",
     option3: "72",
     option4: "54",
-    ans: 4
+    ans: 3
   },
   {
     id: 11,
@@ -96,7 +96,7 @@ export const data = [
     option2: "30 cm",
     option3: "40 cm",
     option4: "20 cm",
-    ans: 2
+    ans: 1
   },
   {
     id: 12,
@@ -123,7 +123,7 @@ export const data = [
     option2: "90",
     option3: "100",
     option4: "110",
-    ans: 2
+    ans: 3
   },
   {
     id: 15,

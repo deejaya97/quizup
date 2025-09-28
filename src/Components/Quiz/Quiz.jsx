@@ -5,6 +5,7 @@ import { data as chemistryQuestions} from '../../assets/chemistry'
 import { data as triviaQuestions} from '../../assets/trivia'
 import { data as mathQuestions} from '../../assets/math'
 import { data as biologyQuestions} from '../../assets/biology'
+import { data as historyQuestions} from '../../assets/history'
 
 
  // pick 10 random questions from data
@@ -14,6 +15,14 @@ import { data as biologyQuestions} from '../../assets/biology'
     const randomQuestion = chemistryQuestions[randomIndex];
     if (!randomChemQuestions.includes(randomQuestion)) {
       randomChemQuestions.push(randomQuestion);
+    }
+  }
+  let randomHistoryQuestions = []; 
+  while (randomHistoryQuestions.length < 10) {
+    const randomIndex = Math.floor(Math.random() * historyQuestions.length);
+    const randomQuestion = historyQuestions[randomIndex];
+    if (!randomHistoryQuestions.includes(randomQuestion)) {
+      randomHistoryQuestions.push(randomQuestion);
     }
   }
 
@@ -57,6 +66,8 @@ export default function Quiz() {
     randomQuestions = randomMathQuestions;
   }else if (topic  === 'biology'){
     randomQuestions = randomBiologyQuestions; 
+  } else if (topic  === 'history'){
+    randomQuestions = randomHistoryQuestions; 
   }
 
   // Initialize the topic

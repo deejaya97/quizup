@@ -7,6 +7,7 @@ const topics = [
   { id: "trivia", name: "Trivia" },
   { id: "biology", name: "Biology" },
   { id: "math", name: "Math" },
+  { id: "history", name: "History" },
 ];
 
 export default function TopicList() {
