@@ -1,12 +1,12 @@
-import React from 'react'
-import Quiz from './Components/Quiz/Quiz'
+import { Routes, Route } from "react-router-dom";
+import TopicList from "./Components/Quiz/TopicList";
+import Quiz from "./Components/Quiz/Quiz";
 
-const App = () => {
+export default function App() {
   return (
-    <>
-      <Quiz/>
-    </>
-  )
+    <Routes>
+      <Route path="/" element={<TopicList />} />
+      <Route path="/quiz/:topic" element={<Quiz />} /> {/* topicId in URL */}
+    </Routes>
+  );
 }
-
-export default App
