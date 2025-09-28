@@ -88,5 +88,14 @@ export const data = [
         option3: "MongoDB",
         option4: "Oracle",
         ans: 3
+    },
+    {
+        id: 11,
+        question: "How old is daddy's red Honda Accord?",
+        option1: "15",
+        option2: "10",
+        option3: "21",
+        option4: "26",
+        ans: 3
     }
 ]
