@@ -1,182 +1,92 @@
 export const data = [
   {
     id: 1,
-    question: "What is the basic unit of life?",
-    option1: "Atom",
-    option2: "Molecule",
-    option3: "Cell",
-    option4: "Organ",
+    question: "Which of the following scenarios best illustrates a negative feedback loop in maintaining homeostasis?",
+    option1: "A rise in estrogen during the menstrual cycle stimulates the secretion of luteinizing hormone (LH).",
+    option2: "Contractions during childbirth increase in intensity as a result of oxytocin release.",
+    option3: "An increase in blood glucose levels triggers the release of insulin, which promotes glucose uptake by cells and lowers blood glucose.",
+    option4: "Injury to a blood vessel initiates platelet aggregation, where platelets release factors that attract more platelets to the site.",
     ans: 3
   },
   {
     id: 2,
-    question: "Which organelle is known as the powerhouse of the cell?",
-    option1: "Nucleus",
-    option2: "Mitochondria",
-    option3: "Ribosome",
-    option4: "Endoplasmic Reticulum",
-    ans: 2
+    question: "Which type of animal tissue is characterized by having a sparse population of cells scattered throughout an extracellular matrix?",
+    option1: "Epithelial tissue",
+    option2: "Nervous tissue",
+    option3: "Muscle tissue",
+    option4: "Connective tissue",
+    ans: 4
   },
   {
     id: 3,
-    question: "DNA stands for:",
-    option1: "Deoxyribonucleic Acid",
-    option2: "Deoxyribonuclear Acid",
-    option3: "Dicarboxy Nucleic Acid",
-    option4: "Deoxyribose Nucleic Acid",
-    ans: 1
+    question: "In the human digestive system, the majority of chemical digestion and nutrient absorption occurs in the:",
+    option1: "Stomach",
+    option2: "Esophagus",
+    option3: "Large intestine",
+    option4: "Small intestine",
+    ans: 4
   },
   {
     id: 4,
-    question: "Which blood cells help in fighting infections?",
-    option1: "Red blood cells",
-    option2: "White blood cells",
-    option3: "Platelets",
-    option4: "Plasma",
-    ans: 2
+    question: "Which of the following is an **essential** nutrient that animals cannot synthesize and must obtain from their diet?",
+    option1: "Glucose (a monosaccharide)",
+    option2: "Cholesterol (a lipid/steroid)",
+    option3: "The amino acid glycine",
+    option4: "Omega-3 fatty acids",
+    ans: 4
   },
   {
     id: 5,
-    question: "Which process do plants use to make their food?",
-    option1: "Photosynthesis",
-    option2: "Respiration",
-    option3: "Transpiration",
-    option4: "Fermentation",
-    ans: 1
+    question: "Endotherms generally require more food than similar-sized ectotherms because:",
+    option1: "Endotherms have larger body sizes and thus a higher overall metabolic rate.",
+    option2: "Endotherms must consume food to obtain heat from chemical bonds.",
+    option3: "Endotherms must expend energy to generate enough heat to maintain a constant, high body temperature.",
+    option4: "Ectotherms primarily use metabolic heat to regulate their body temperature, while endotherms rely on external sources.",
+    ans: 3
   },
   {
     id: 6,
-    question: "Which part of the brain controls balance and coordination?",
-    option1: "Cerebrum",
-    option2: "Cerebellum",
-    option3: "Medulla",
-    option4: "Hypothalamus",
-    ans: 2
+    question: "What is the correct sequence of blood flow through the chambers of the mammalian heart, starting when deoxygenated blood returns from the body?",
+    option1: "Left atrium $\\rightarrow$ Left ventricle $\\rightarrow$ Pulmonary artery $\\rightarrow$ Lungs",
+    option2: "Right atrium $\\rightarrow$ Right ventricle $\\rightarrow$ Aorta $\\rightarrow$ Body",
+    option3: "Right atrium $\\rightarrow$ Right ventricle $\\rightarrow$ Pulmonary artery $\\rightarrow$ Lungs",
+    option4: "Left atrium $\\rightarrow$ Left ventricle $\\rightarrow$ Pulmonary vein $\\rightarrow$ Body",
+    ans: 3
   },
   {
     id: 7,
-    question: "Which type of reproduction involves only one parent?",
-    option1: "Sexual reproduction",
-    option2: "Asexual reproduction",
-    option3: "Fertilization",
-    option4: "Pollination",
-    ans: 2
+    question: "The primary advantage of a four-chambered heart and double circulation (as found in mammals) compared to the single circulation of a fish is that it allows for:",
+    option1: "The delivery of blood at a higher pressure to the gas exchange surfaces (lungs).",
+    option2: "More efficient cooling of the body by circulating blood through the skin.",
+    option3: "A complete separation of oxygenated and deoxygenated blood, allowing higher systemic blood pressure.",
+    option4: "A reduced overall cardiac output, conserving energy in the organism.",
+    ans: 3
   },
   {
     id: 8,
-    question: "Which gas is produced by plants during photosynthesis?",
-    option1: "Oxygen",
-    option2: "Carbon Dioxide",
-    option3: "Nitrogen",
-    option4: "Hydrogen",
-    ans: 1
+    question: "Which hormone is released by the duodenum in response to the entry of acidic chyme from the stomach and stimulates the pancreas to release bicarbonate?",
+    option1: "Gastrin",
+    option2: "Cholecystokinin (CCK)",
+    option3: "Secretin",
+    option4: "Insulin",
+    ans: 3
   },
   {
     id: 9,
-    question: "The human heart has how many chambers?",
-    option1: "2",
-    option2: "3",
-    option3: "4",
-    option4: "5",
+    question: "Gas exchange across respiratory surfaces (like the alveoli of the lungs) occurs by which process and is driven by which principle?",
+    option1: "Active transport, driven by the $\\text{Na}^+$ concentration gradient.",
+    option2: "Osmosis, driven by the difference in water potential.",
+    option3: "Simple diffusion, driven by differences in partial pressure.",
+    option4: "Bulk flow, driven by the difference in total atmospheric pressure.",
     ans: 3
   },
   {
     id: 10,
-    question: "Which blood group is considered the universal donor?",
-    option1: "A",
-    option2: "B",
-    option3: "AB",
-    option4: "O",
-    ans: 4
-  },
-  {
-    id: 11,
-    question: "Which macromolecule is the main source of energy for the body?",
-    option1: "Proteins",
-    option2: "Carbohydrates",
-    option3: "Fats",
-    option4: "Vitamins",
-    ans: 2
-  },
-  {
-    id: 12,
-    question: "Which organ filters blood and produces urine?",
-    option1: "Liver",
-    option2: "Kidney",
-    option3: "Lungs",
-    option4: "Heart",
-    ans: 2
-  },
-  {
-    id: 13,
-    question: "Which part of a plant transports water from roots to leaves?",
-    option1: "Phloem",
-    option2: "Xylem",
-    option3: "Stomata",
-    option4: "Chloroplast",
-    ans: 2
-  },
-  {
-    id: 14,
-    question: "Which system in humans is responsible for hormone production?",
-    option1: "Nervous system",
-    option2: "Endocrine system",
-    option3: "Digestive system",
-    option4: "Respiratory system",
-    ans: 2
-  },
-  {
-    id: 15,
-    question: "Which vitamin is produced when human skin is exposed to sunlight?",
-    option1: "Vitamin A",
-    option2: "Vitamin B12",
-    option3: "Vitamin C",
-    option4: "Vitamin D",
-    ans: 4
-  },
-  {
-    id: 16,
-    question: "Which kingdom do mushrooms belong to?",
-    option1: "Plantae",
-    option2: "Fungi",
-    option3: "Animalia",
-    option4: "Protista",
-    ans: 2
-  },
-  {
-    id: 17,
-    question: "Which blood vessel carries blood away from the heart?",
-    option1: "Vein",
-    option2: "Artery",
-    option3: "Capillary",
-    option4: "Venule",
-    ans: 2
-  },
-  {
-    id: 18,
-    question: "Which organ in the human body produces insulin?",
-    option1: "Pancreas",
-    option2: "Liver",
-    option3: "Kidney",
-    option4: "Gallbladder",
-    ans: 1
-  },
-  {
-    id: 19,
-    question: "Which process results in the formation of gametes?",
-    option1: "Mitosis",
-    option2: "Meiosis",
-    option3: "Binary fission",
-    option4: "Fertilization",
-    ans: 2
-  },
-  {
-    id: 20,
-    question: "Which part of a neuron receives signals from other neurons?",
-    option1: "Axon",
-    option2: "Dendrite",
-    option3: "Cell body",
-    option4: "Synapse",
-    ans: 2
+    question: "During inhalation in a mammal, which of the following events correctly describes the mechanism that causes air to enter the lungs?",
+    option1: "The diaphragm relaxes, increasing the volume of the thoracic cavity.",
+    option2: "Contraction of the rib cage muscles decreases the volume of the thoracic cavity.",
+    option3: "The volume of the thoracic cavity increases, causing the pressure within the lungs to drop below the atmospheric pressure.",
+    option4: "The pressure in the lungs increases above atmospheric pressure, forcing air out.",
+    ans: 3
   }
-];
+]
