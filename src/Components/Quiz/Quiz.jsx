@@ -131,6 +131,7 @@ export default function Quiz() {
   }
 
   return (
+    <div className='min-h-screen bg-gradient-to-br from-indigo-100 via-purple-100 to-pink-100 p-8'>
     <div className='container'>
       <h1>{initCapTopic} </h1>
       <hr />
@@ -148,7 +149,7 @@ export default function Quiz() {
     <h2>You scored {score} out of {randomQuestions.length}</h2>
     <button onClick={reset}>Try again</button> </>
     :<></>} 
-    </div>
+    </div>  </div>
   )
 }
 
